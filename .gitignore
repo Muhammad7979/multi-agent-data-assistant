@@ -1,0 +1,33 @@
+# Environment variables / secrets
+.env
+.env.*
+
+# Keep an example environment file if you create one
+!.env.example
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# React dependencies and generated build output
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# Generated local Company Policy state (including Chroma persistence)
+var/policy/
+var/etl/
+
+# Generated schema/sample report from scripts/inspect_database.py
+/test_schema_detail.txt
